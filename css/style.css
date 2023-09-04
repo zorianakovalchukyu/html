@@ -1,0 +1,413 @@
+@import url(reset.css);
+.nav-bar{
+    display:flex;
+    align-items: center;
+    gap:35.5px;
+    justify-content: center;
+}
+.nav-items{
+    display:flex;
+    list-style: none;
+    gap:40px;
+    font-size:15px;
+    font-weight:400;
+    color: #FFFFFF;
+    align-items: center;
+
+}
+.logo{
+    text-align:  center;
+}
+.contacts{
+    display:flex;
+    gap:30;
+    align-items: center;
+    margin-left:235px;
+}
+body{
+    background-image: url(/img/bck.jpg) ; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Graphik;
+}
+.first-block{
+    text-align:center;
+    color: #FFFFFF;
+}
+.first-block-heading{
+    margin-top:150px;
+    font-size: 74px;
+    font-weight: 700;
+    text-align:center;
+    
+}
+.first-block-description{
+    font-size:28px;
+    font-weight:400;
+    letter-spacing: 0.01rem;
+    line-height:40px;
+}
+.action-button{
+    padding:16px 62px;
+    margin-top:30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    background-color: #2091F9;
+    border-radius: 50px;
+    color:#FFFFFF;
+}
+.features{
+    margin-top:400px;
+    text-align: center;
+}
+.features-heading,.fastestway-title,.email-heading,.partners-heading,.testimonials-heading,.price-heading,.contact-heading{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.1rem;
+    color: #252B42; 
+    
+}
+.features-description,.fastest-way-text,.partners-description,.testimonial-text,.price-description,.contact-text{
+    margin-top: 17px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.1rem;
+    color: #374754; 
+}
+.feature-item{
+    width: 259px;
+}
+.features-items{
+    display:flex;
+    justify-content: center;
+    gap:55px;
+    margin-top: 80px;
+}
+.feature-img{
+    height:60px;
+}
+.feature-title,.email-description-first,.price-category-name{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1rem;
+    color: #252B42; 
+}
+.feature-description,.email-description-second{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1rem;
+    color: #374754; 
+}
+
+.macbook-block{
+    justify-content: center;
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+.fastest-button{
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.subscribtion-block{
+    margin-top: 300px;
+    display:flex;
+    gap: 110px;
+    align-items: center;
+    justify-content: center;
+}
+.email-heading{
+    position: relative;
+}
+.email-heading::before{
+    position: absolute;
+    top:-30px;
+    content: 'At your finger tips';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1rem;
+}
+.email-description-first{
+    margin-top: 25px;
+}
+.email-input{
+    background-color: #F4F4F4;
+    border: 1px solid  #E8E8E8;
+    border-radius: 39px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:16px;
+    letter-spacing: 0.1rem;
+    padding:19px 166px  19px 30px;
+    
+
+}
+.email-form{
+    margin-top: 36px;
+    display: flex;
+    gap:12px;
+    
+}
+.subscribe-button{
+    margin: 0;
+
+}
+.partners-block{
+    text-align: center;
+   margin-top: 130px;
+}
+.partners-logo-row{
+    display: flex;
+    justify-content: center;  
+}
+.partner-logo{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    padding: 0px 40px;
+    border: 1px solid #D8D8D8;
+    justify-content: center;
+    align-items: center;
+}
+.partner-logo-img{
+    margin-top: 15px;
+}
+.partners-logo{
+    margin-top: 80px;
+}
+.client-name{
+    margin-top: 7px;
+}
+.partner-action-but,.about-button,.contact-form-title{
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 80px;
+}
+.testimonials-block{
+    margin-top: 180px;
+    text-align:center;
+}
+.brand-img{
+    margin-top: 80px;
+    
+}
+.testimonial-text{
+    margin-top: 60px;
+}
+.about{
+    margin-top: 50px;
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-worker{
+    text-align: left;
+}
+.about-info,.price-category-description,.price-category-payment{
+    font-weight: 400;
+    font-size:16px;
+    line-height:23px;
+    
+    color:#252B42;
+
+}
+.about-job{
+    font-weight: 400;
+    font-size:15px;
+    line-height:28px;
+   
+    color:#252B42;
+}
+.price-block{
+    text-align: center;
+    margin-top:100px;
+    background-color: #252B42;
+}
+.price-heading,.price-description{
+    color:#FFFFFF;
+}
+.price-heading{
+    padding-top: 110px;
+}
+.price-category{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+    border-radius: 10px;
+    padding:30px;
+
+}
+.price-category-cost{
+    font-size: 74px;
+    line-height: 84px;
+    font-weight:700;
+}
+.price-category-info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.price-category-currency,.pages-heading,.tomothy-heading,.janeblack-heading{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight:700;
+}
+.pricing-features,.link{
+    font-size: 15px;
+    font-weight:400;
+    line-height: 28px;
+}
+.price-categories{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    padding-bottom: 100px;
+    padding-top:80px;
+}
+.price-categories:first-child {
+    background-color: #252B42;
+}
+.blue{
+    background-color: #2091F9;
+    color:#FFFFFF;
+    
+}
+.white{
+    background-color:#FFFFFF;
+    color:#2091F9;
+}
+.heigher{
+    height: 450px;
+    
+}
+.price-category-payment{
+    text-align: left;
+}
+.contact-block{
+    
+    text-align:center;
+    margin-top:213px;
+}
+.contact-information{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display:flex;
+    gap:50px;
+    justify-content: center;
+
+}
+.contact-form{
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    gap:35px;
+    border-radius: 39px;
+    border:1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+.contact-form-title{
+    margin-top: 50px;
+}
+.contact-form-name,.contact-form-email,.contact-form-comment{
+    padding:19px 258px 19px 20px;
+    background-color: #F5F5F5;
+    border:1px solid #E8E8E8;
+    border-radius: 39px;
+}
+.contact-form-comment{
+    padding:23px 236px 154px 20px;
+    border-radius: 0px;
+}
+.contact-send-button{
+    margin-top: 20px;
+    padding:20px 50px;
+    width:145px;
+}
+.contact-items{
+    display:flex;
+    gap:35px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+
+}
+.contact-info{
+    display:flex;
+    gap:30px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact-links{
+    display:flex;
+    gap:32px;
+    
+}
+.contact-info-blocks{
+    display:flex;
+    flex-direction: column;
+    gap:65px;
+    justify-content: left;
+   
+}
+footer{
+    background-color: #252B42;
+    display: flex;
+    gap:85px;
+    color:#FFFFFF;
+    padding: 150px 0px;
+    justify-content: center;
+}
+.links{
+    margin-top:25px;
+    display:flex;
+    flex-direction: column;
+    gap:16px;   
+}
+.contact-info-items{
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+
+}
+.pages{
+    padding-right:45px;
+}
+.janeblack{
+    padding-right: 100px;
+}
+.contact-info-item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+}
+.number-img{
+    padding-right: 11px;
+    padding-left:11px;
+}
+.contact-info-item-links{
+    gap:24px;
+}
